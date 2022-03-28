@@ -1,0 +1,6 @@
+Callibot.motor(KMotor.beide, KDir.vorwärts, 100)
+basic.pause(1000)
+Callibot.motor(KMotor.links, KDir.vorwärts, 100)
+Callibot.motor(KMotor.rechts, KDir.rückwärts, 100)
+basic.pause(370)
+Callibot.motorStop(KMotor.beide, KStop.Bremsen)
